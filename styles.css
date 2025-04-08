@@ -318,12 +318,14 @@ FEATURES
 .books {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  padding-left: 100px;
 }
 
 .book {
   width: 25%;
   padding: 24px;
-  margin-left: 32px;
+  /* margin-left: 100px; */
 
 }
 
