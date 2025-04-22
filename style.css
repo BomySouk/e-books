@@ -235,7 +235,6 @@ button:active {
 
 #highlights:after,
 #highlights:before {
-    /* background: url('assets/wave.svg'); */
     content: "";
     position: absolute;
     width: 101vh;
@@ -252,10 +251,8 @@ button:active {
 }
 
 #highlights:after {
-    /* background: url('assets/wave.svg'); */
     transform: translateY(100%) rotate(180deg);
     bottom: 1px;
-    
 }
 
 .highlight__wrapper {
